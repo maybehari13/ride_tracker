@@ -2,8 +2,23 @@ package com.pluralsight.model;
 
 public class Ride {
 
+	private Integer id;
 	private String name;
 	private int duration;
+	
+	/**
+	 * @return the id
+	 */
+	public Integer getId() {
+		return id;
+	}
+
+	/**
+	 * @param id the id to set
+	 */
+	public void setId(Integer id) {
+		this.id = id;
+	}
 
 	public int getDuration() {
 		return duration;
